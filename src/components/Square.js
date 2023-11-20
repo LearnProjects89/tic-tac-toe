@@ -4,6 +4,7 @@ import React from 'react'
 const Square = (props) => {
 
   const handleClick = () => {
+    // "eslint-disable-next-line"
     { props.gamePlay(props.index) }
   }
 
