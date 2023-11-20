@@ -9,5 +9,11 @@ create a react app on you local machine
 git push initial commit
 Now code.
 Check if yarn start is working fine, and after that work
-if you get an error about node packages and package.json just cntr+s package.json and you should be good to go.
+if you get an error about node packages and package.json just delete
 
+                "eslintConfig": {
+                    "extends": [
+                    "react-app",
+                    "react-app/jest"
+                    ]
+                },
